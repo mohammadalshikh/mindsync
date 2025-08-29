@@ -12,7 +12,6 @@ module.exports = {
 		const { user } = interaction;
 		const userData = loadUserData();
 
-		// Initialize user data if it doesn't exist
 		if (!userData[interaction.user.id]) {
 			userData[interaction.user.id] = { tasks: [] };
 			saveUserData(userData);
@@ -23,6 +22,7 @@ module.exports = {
 			return;
 		}
 
+		const userTasks = userData[interaction.user.id].tasks;
 		const embedsList = [];
 		const unfinishedTasks = [];
 		const completedTasks = [];
