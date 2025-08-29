@@ -3,6 +3,8 @@
 # MindSync (Discord Bot)
 Task-management Discord bot with AI-assistance and real-time updating.
 
+![demo](https://github.com/user-attachments/assets/9a86b1ef-e2d2-46c2-974e-134888ffef3e)
+
 ## Adding to Server
 To use the bot directly, you can invite it to your server by clicking on the link provided under the 'About' section top-right.
 
